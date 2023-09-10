@@ -25794,7 +25794,11 @@
 /turf/simulated/floor/wood,
 /area/station/service/library)
 "bti" = (
-/obj/machinery/door/firedoor,
+/obj/machinery/door/window{
+	dir = 4;
+	name = "Desk Door";
+	req_access_txt = "73"
+	},
 /turf/simulated/floor/wood,
 /area/station/service/library)
 "btj" = (
