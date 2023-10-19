@@ -27,6 +27,10 @@
 "cV" = (
 /turf/simulated/floor/plasteel/white,
 /area/space/nearstation)
+"eb" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/simulated/floor/plating,
+/area/space/nearstation)
 "et" = (
 /obj/structure/lattice,
 /turf/space,
@@ -41,6 +45,10 @@
 "fD" = (
 /obj/structure/closet/crate/freezer/iv_storage,
 /turf/simulated/floor/plasteel/white,
+/area/space/nearstation)
+"gb" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/plating,
 /area/space/nearstation)
 "id" = (
 /obj/effect/spawner/window/shuttle,
@@ -60,6 +68,12 @@
 	dir = 8;
 	icon_state = "whiteblue"
 	},
+/area/space/nearstation)
+"mj" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
 /area/space/nearstation)
 "nI" = (
 /obj/structure/closet/firecloset,
@@ -119,13 +133,18 @@
 /area/space/nearstation)
 "AS" = (
 /obj/machinery/door/airlock{
-	name = "Custodial Closet";
-	req_access_txt = "26"
+	name = "Custodial Closet"
 	},
 /turf/simulated/floor/plasteel,
 /area/space/nearstation)
 "AY" = (
 /obj/structure/foamedmetal,
+/turf/simulated/floor/plating,
+/area/space/nearstation)
+"Bc" = (
+/obj/item/flashlight/seclite{
+	on = 1
+	},
 /turf/simulated/floor/plating,
 /area/space/nearstation)
 "Ci" = (
@@ -191,6 +210,10 @@
 "Mn" = (
 /obj/structure/falsewall/titanium,
 /turf/simulated/floor/plating,
+/area/space/nearstation)
+"My" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/plasteel,
 /area/space/nearstation)
 "NG" = (
 /obj/structure/lattice,
@@ -1506,7 +1529,7 @@ uQ
 sm
 sm
 sm
-sm
+My
 LK
 fz
 fz
@@ -1600,9 +1623,9 @@ cw
 cw
 uQ
 KC
+Bc
 KC
-KC
-KC
+mj
 uQ
 fz
 fz
@@ -1648,8 +1671,8 @@ cw
 cw
 uQ
 WW
-KC
-KC
+eb
+gb
 uQ
 fz
 fz
